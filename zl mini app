@@ -1,0 +1,23 @@
+<div class="mt-6 text-xs text-center text-gray-500">
+      <p>Chuyển khoản: <strong>MS00T03410605376778</strong> - Techcombank - Bùi Thị Minh Hằng</p>
+      <p>Facebook: <a href="https://facebook.com/vuhangroup" class="text-yellow-700 underline">facebook.com/vuhangroup</a></p>
+    </div>
+
+  </div>
+
+  <!-- Script -->
+  <script>
+    function datVe() {
+      window.location.href = "/dat-ve";
+    }
+
+    function goiNhaXe() {
+      if (window.zaloMiniApp) {
+        zaloMiniApp.call('phoneCall', { phoneNumber: '19008118' });
+      } else {
+        window.location.href = "tel:19008118";
+      }
+    }
+  </script>
+</body>
+</html>
