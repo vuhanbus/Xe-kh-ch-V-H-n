@@ -1,4 +1,66 @@
-<div class="mt-6 text-xs text-center text-gray-500">
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xe khách Vũ Hán</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://sp.zalo.me/miniapp/sdk.js"></script>
+</head>
+<body class="bg-[#fdf6e3] text-gray-800 font-sans">
+  <div class="max-w-md mx-auto p-4">
+
+    <!-- Header -->
+    <div class="flex items-center space-x-4 mb-6">
+      <img src="https://via.placeholder.com/60x60?text=Bus" alt="Logo" class="rounded-full w-16 h-16">
+      <div>
+        <h1 class="text-xl font-bold text-yellow-700">Xe khách Vũ Hán</h1>
+        <p class="text-sm text-yellow-600">Uy tín - Nhanh chóng - Giá rẻ</p>
+      </div>
+    </div>
+
+    <!-- Tuyến xe -->
+    <h2 class="text-lg font-semibold mb-2 text-yellow-700">Tuyến xe chính</h2>
+    <div class="space-y-3 max-h-[60vh] overflow-y-auto pr-2">
+
+      <!-- Tuyến: Hà Nội - Tuyên Quang -->
+      <div class="bg-white p-3 rounded-xl shadow">
+        <h3 class="font-semibold text-yellow-700">Hà Nội → Tuyên Quang</h3>
+        <ul class="text-sm text-gray-700 list-disc ml-4">
+          <li>Xe ghế: 120.000đ — Giờ: 6h55, 7h50, 8h20, 10h10, 15h25, 17h50</li>
+          <li>Giường: 140.000đ — Giờ: 6h20, 7h30, 18h20, 19h15, 19h30</li>
+          <li>VIP: 160.000đ — Giờ: 5h</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-3 rounded-xl shadow">
+        <h3 class="font-semibold text-yellow-700">Tuyên Quang → Hà Nội</h3>
+        <ul class="text-sm text-gray-700 list-disc ml-4">
+          <li>Xe ghế: 120.000đ — Giờ: 7h10, 8h25, 12h45, 13h30, 14h10, 15h, 16h10</li>
+          <li>Giường: 140.000đ — Giờ: 12h, 2h, 3h, 14h, 15h</li>
+          <li>VIP: 160.000đ — Giờ: 18h</li>
+        </ul>
+      </div>
+
+      <!-- Các tuyến còn lại -->
+      <div class="bg-white p-3 rounded-xl shadow">
+        <h3 class="font-semibold text-yellow-700">Xem thêm các tuyến khác</h3>
+        <p class="text-sm text-gray-700">Vui lòng truy cập <a href="https://vuhangroup.vn" class="text-yellow-700 underline">vuhangroup.vn</a> hoặc gọi tổng đài <strong>19008118</strong> để biết lịch trình chi tiết tất cả tuyến như: Đoan Hùng, Đồng Văn, Hà Giang, Quản Bạ, Yên Minh, Mèo Vạc, Bảo Lâm, Bắc Mê, Thượng Nông, Yên Hoa, Na Hang, Chiêm Hóa, Bắc Hà, Xín Mần, Hoàng Su Phì, Tân Quang, Hàm Yên...</p>
+      </div>
+    </div>
+
+    <!-- Hành động -->
+    <div class="mt-6 space-y-3">
+      <button onclick="datVe()" class="w-full bg-yellow-700 text-white py-3 rounded-xl font-semibold hover:bg-yellow-800 transition">
+        Đặt vé ngay
+      </button>
+      <button onclick="goiNhaXe()" class="w-full border border-yellow-700 text-yellow-700 py-3 rounded-xl font-semibold hover:bg-yellow-100 transition">
+        Gọi nhà xe
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <div class="mt-6 text-xs text-center text-gray-500">
       <p>Chuyển khoản: <strong>MS00T03410605376778</strong> - Techcombank - Bùi Thị Minh Hằng</p>
       <p>Facebook: <a href="https://facebook.com/vuhangroup" class="text-yellow-700 underline">facebook.com/vuhangroup</a></p>
     </div>
@@ -21,3 +83,4 @@
   </script>
 </body>
 </html>
+
